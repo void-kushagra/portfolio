@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kushagra Sinha| Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Portfolio</div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+            </div>
+            <button class="mobile-menu" aria-label="Menu">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="subtitle">Hello, I'm</p>
+                <h1>Kushagra Sinha</h1>
+                <h2 id="typing-text">Web Developer</h2>
+                <p class="description">I create beautiful digital experiences that help businesses grow and engage their audience.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/bg_1.jpeg" alt="Background Image">
+
+                  <!----<img src="https://images.pexels.com/photos/3799821/pexels-photo-3799821.jpeg" alt="John Doe">--->
+                </div>
+                <div class="about-text">
+                    <h3>A passionate <span class="highlight">Software Engineer and Web Developer</span> based in Bengaluru</h3>
+                    <p>I am a full-stack developer with a passion for creating engaging and intuitive digital experiences. </p>
+                    <div class="about-grid">
+                        <div class="about-item">
+                            <h4>Education</h4>
+                            <p>B.E. in Information Science and Engineering<br>Global Academy of Technology</p>
+                        </div>
+                        <div class="about-item">
+                            <h4>Location</h4>
+                            <p>Bengaluru, Karnataka</p>
+                        </div>
+                        <div class="about-item">
+                            <h4>Email</h4>
+                            <p>kushagrasi1301@gmail.com</p>
+                        </div>
+                        <div class="about-item">
+                            <h4>LinkedIn</h4>
+                            <p>@johndoe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+           <!----<div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>-->
+            <div class="project-grid">
+                <div class="project-card" data-category="fullstack">
+                    <img src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg" alt="E-commerce Platform">
+                    <div class="project-content">
+                        <h3>E-Commerce</h3>
+                        <p>A full-featured e-commerce platform with product catalog, cart, and secure checkout functionality.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                           <!---- <a href="#" class="btn small">Live Demo</a>-->
+                            <a href="#" class="btn small secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="frontend">
+                    <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg" alt="Task Manager">
+                    <div class="project-content">
+                        <h3>Clima-Pulse</h3>
+                        <p>A weather app that tells you real time and history of climate of a place </p><br>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <!--<a href="#" class="btn small">Live Demo</a>-->
+                            <a href="#" class="btn small secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend">
+                    <img src="https://images.pexels.com/photos/7567437/pexels-photo-7567437.jpeg" alt="API Service">
+                    <div class="project-content">
+                        <h3>Tic-Tac-Toe</h3>
+                        <p>I developed a Tic Tac Toe game in React with interactive UI, game logic, and state management using hooks.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                           <!---- <a href="#" class="btn small">Live Demo</a>-->
+                            <a href="#" class="btn small secondary">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="info-item">
+                        <span class="icon">📧</span>
+                        <div>
+                            <h4>Email</h4>
+                            <p>kushagrasi1301@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📱</span>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9934342112</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="icon">📍</span>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Bengaluru, Karnataka</p>
+                        </div>
+                    </div>
+                   <!--<div class="social-links">
+                        <a href="#" aria-label="GitHub">G</a>
+                        <a href="#" aria-label="LinkedIn">L</a>
+                        <a href="#" aria-label="Twitter">Tw</a>
+                    </div>-->
+                </div>
+              <!----  <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                    <div id="form-status" class="form-status"></div>
+                </form>-->
+                <form id="contact-form" class="contact-form" action="https://formspree.io/f/meogvdll" method="POST">
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+    </div>
+    <button type="submit" class="btn primary">Send Message</button>
+    <div id="form-status" class="form-status"></div>
+</form>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Portfolio</div>
+            <p>Creating beautiful digital experiences</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <p class="copyright">© 2025 Kushagra Sinha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
